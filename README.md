@@ -1,5 +1,5 @@
 # device-simulator
-It is simulator of Device (ESP32 and temperature sensor )
+It is a simulator of the Device (ESP32 and temperature sensor )
 
 # Command to execute the code.
 
@@ -7,14 +7,14 @@ It is simulator of Device (ESP32 and temperature sensor )
 
 https://mosquitto.org/download/
 
-## Step 01: Download the simulator folder that contains the next python scripts
+## Step 01: Download the simulator folder that contains the following Python scripts
 ### main.py: Initialize the mosquitto broker with a configuration file (mosquitto.conf).
 
 `$ python3 main.py`
 
-### simplesensor.py: Initialize a sensor simulator where this generates aleatory values of temperature and humidity
+### simplesensor.py: Initialize a sensor simulator that generates aleatory values of temperature and humidity
 
-To exec, this script uses the next command we need to install paho module for python.
+To execute this script. First, we need to install the Paho module using the following command: 
 
 `$ pip install paho-mqtt`
 
